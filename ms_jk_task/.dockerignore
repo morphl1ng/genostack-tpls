@@ -1,0 +1,40 @@
+# 常规需要忽略的文件
+.git/
+.idea/
+.gitignore
+.dockerignore
+Dockerfile
+README.md
+
+# 后端需要忽略的文件
+__pycache__/
+docs/
+scripts/
+instance/
+instance_tpl/
+
+# 前端新增忽略文件
+public/
+node_modules/
+src/
+*.js
+*.json
+
+# 历史需要忽略的文件
+ui/
+doc/
+r740_start.sh
+clean_celery_threads.sh
+deploy.py
+gunicorn.conf.py
+
+# 本项目额外需要忽略的
+a_demo_bubble_plot/
+dist/
+code_bak/
+
+#app/static/
+#app/templates/
+
+xxxx.py
+aaa

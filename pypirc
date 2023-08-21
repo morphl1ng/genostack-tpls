@@ -1,0 +1,7 @@
+[distutils]
+index-servers=local
+
+[local]
+repository: https://repository.genostack.com/repository/pypi-local/
+username: admin
+password: Qiankun2021
