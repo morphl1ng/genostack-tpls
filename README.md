@@ -2,16 +2,24 @@
 
 ## 项目环境初始化
 ```bash
-pip install -r requirements.txt
-# 根据项目需要可不安装 celery 等，或安装额外需要的包 
+cd {your project workdir}
+cp -r {ms-task or ms-without-task}./* ./
+mv instance_tpl instance
+vim {instance/config.py}
+# {put your sample data to instance/data_dir/demo_sample_data}
 
-# 必须安装 平台公共sdk包,目前最新版本为 1.2.0, 后续会根据需要更新版本
+pip install -r requirements.txt # 安装依赖
+# 根据项目需要可不安装 celery 等
+# 安装额外需要的包 
+
+# 必须安装 平台公共sdk包,目前最新版本为 1.3.0, 后续会根据需要更新版本
 # 安装前需要配置私服
 # 1. vim ~/.pypirc ,配置内容参考 pypirc
 # 2. vim ~/.config/pip/pip.conf ,配置内容参考 pypirc
 
-pip install ms-jk-utils==1.2.0 
+pip install hippy==1.3.0 
 
+# {开发业务代码}
 
 ```
 

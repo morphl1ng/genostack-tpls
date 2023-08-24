@@ -10,7 +10,10 @@ redis==4.3.4
 gunicorn==20.1.0
 gevent==21.12.0
 psycogreen==1.0.2
-celery==5.2.7
 requests==2.28.2
 gitpython==3.1.31
-
+pandas~=2.0.2
+setuptools~=67.7.2
+werkzeug~=2.3.4
+celery~=5.2.7
+toml~=0.10.2
