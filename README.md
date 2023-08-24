@@ -17,11 +17,20 @@ pip install -r requirements.txt # 安装依赖
 # 1. vim ~/.pypirc ,配置内容参考 pypirc
 # 2. vim ~/.config/pip/pip.conf ,配置内容参考 pip.conf
 
-pip install hippy==1.3.0 
+pip install hippo==1.3.0 
+
+# 集成前端项目
+# 前端项目待发布,目前还不是最新的代码
+cp -r {本项目下}/app/static {your project workdir}/app
+cp -r {本项目下}/app/templates {your project workdir}/app
+
 
 # {开发业务代码}
 
 ```
+##  
+
+
 
 ## 注意
 
