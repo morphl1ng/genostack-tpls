@@ -15,7 +15,7 @@ pip install -r requirements.txt # 安装依赖
 # 必须安装 平台公共sdk包,目前最新版本为 1.3.0, 后续会根据需要更新版本
 # 安装前需要配置私服
 # 1. vim ~/.pypirc ,配置内容参考 pypirc
-# 2. vim ~/.config/pip/pip.conf ,配置内容参考 pypirc
+# 2. vim ~/.config/pip/pip.conf ,配置内容参考 pip.conf
 
 pip install hippy==1.3.0 
 
