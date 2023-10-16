@@ -1,0 +1,10 @@
+.git/
+.idea/
+.gitignore
+.dockerignore
+__pycache__/
+instance/
+instance_tpl/
+docs/
+Dockerfile
+README.md
