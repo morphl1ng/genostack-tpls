@@ -1,1 +1,1 @@
-hippo==1.4.7
+hippo=={{cookiecutter.hippo_version}}

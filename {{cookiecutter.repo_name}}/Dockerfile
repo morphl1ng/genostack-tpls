@@ -5,8 +5,7 @@ WORKDIR /workspace
 COPY . .
 
 # 这里，需要安装项目依赖的脚本
-RUN pip install {{cookiecutter.repo_name}}-script==1.0.0
-RUN pip install hippo==1.3.15
+RUN pip install hippo=={{cookiecutter.hippo_version}}
 
 EXPOSE 5000
 ENTRYPOINT ["supervisord","-c","instance/supervisord.conf"]

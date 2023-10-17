@@ -1,4 +1,5 @@
 {
-  "repo_name": "smalltool-defaultname",
-  "version": "1.0.0"
+  "repo_name": "smalltool-default-name",
+  "version": "1.0.0",
+  "hippo_version": "1.4.7"
 }
